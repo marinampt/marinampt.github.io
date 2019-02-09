@@ -189,15 +189,15 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .bg-white{
-    background-color:#fff
+    background-color:#D6ECF2
 }
 
 .border-white{
-    border-color:#fff
+    border-color:#D6ECF2
 }
 
 .stroke-white{
-    stroke:#fff
+    stroke:#D6ECF2
 }
 
 .grey{
@@ -551,11 +551,11 @@ h1,h2,h3,h4,h5,h6{
 
 .header .midnightHeader.transparent{
     background-color:transparent;
-    color:#fff
+    color:#D6ECF2
 }
 
 .header .midnightHeader.default{
-    background-color:#fff;
+    background-color:#D6ECF2;
     color:#000
 }
 
@@ -627,15 +627,15 @@ h1,h2,h3,h4,h5,h6{
 
 #mobile-header header.active .midnightHeader{
     background:#000!important;
-    color:#fff!important
+    color:#fff !important
 }
 
 #mobile-header header.active .midnightHeader .hamburger span{
-    background-color:#fff!important
+    background-color:#fff !important
 }
 
 #mobile-header header .midnightHeader.default{
-    background:#fff;
+    background:#D6ECF2;
     color:#000
 }
 
