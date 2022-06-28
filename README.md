@@ -1,2 +1,0 @@
-# marinampt.github.io
-Website
