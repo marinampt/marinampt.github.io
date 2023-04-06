@@ -11,16 +11,16 @@
 		margin: -10px 0 20px 0;
 		padding: 0;
 		font-family: 'Times New Roman', Times, serif, sans-serif;
-		font-size: 14px;
-		line-height: 18px;
+		font-size: 16px;
+		line-height: 20px;
 		}
 	
 	body {
 	margin: 0;
 	padding: 0;
 	font-family: 'Times New Roman', Times, serif, sans-serif;
-	font-size: 14px;
-	line-height: 18px;
+	font-size: 16px;
+	line-height: 20px;
 	letter-spacing:0.1px;
 	font-feature-settings: "calt";
 	font-kerning: normal;
@@ -102,8 +102,8 @@
 	h1,h2,h3,h4,h5,h6,p,ul {
 	display: block;
 	font-weight: 400;
-	font-size: 14px;
-	line-height: 18px;
+	font-size: 16px;
+	line-height: 20px;
 	-webkit-column-break-inside: avoid;
 	page-break-inside: avoid;
 	break-inside: avoid;
@@ -230,8 +230,8 @@
 	font-family: 'Times New Roman', Times, serif, sans-serif;
 	font-style: normal;
 	font-weight: 400;
-	font-size: 14px;
-	line-height: 18px;
+	font-size: 16px;
+	line-height: 20px;
 	border-width: 0;
 	background: 0 0;
 	outline: 0;
@@ -343,8 +343,8 @@
 	}
 	
 	#m-footer {
-	font-size: 12px;
-	line-height: 15px;
+	font-size: 14px;
+	line-height: 18px;
 	text-align: center;
 	margin: 0;
 	height: 40px;
