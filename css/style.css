@@ -1,17 +1,36 @@
-	body,html {
+body,html {
 	height: 100%;
 	}
 	
 	html {
 	box-sizing: border-box;
 	}
+
+	@font-face {
+  		font-family: "Domaine Text";
+  		font-weight: normal;
+  		font-style: normal;
+  		font-stretch: normal;
+  		src: url(/font/domaine-text-regular.woff2) format('woff2'),
+     	url(/font/domaine-text-regular.woff2) format('woff')
+		}
+
+	@font-face {
+  		font-family: "Pitch Sans";
+  		font-weight: normal;
+  		font-style: normal;
+  		font-stretch: normal;
+		font-size: 0.85rem;
+  		src: url(/font/pitch-sans-regular.woff2) format('woff')
+		}
 	
 	figcaption {
-		text-align: center;
+		text-align: left;
 		margin: -10px 0 20px 0;
+		text-indent: 4%;
 		padding: 0;
-		font-family: 'Times New Roman', Times, serif, sans-serif;
-		font-size: 16px;
+		font-family: "Pitch Sans", Times, serif, sans-serif;
+		font-size: 12px;
 		line-height: 20px;
 		}
 
@@ -26,9 +45,9 @@
 	body {
 	margin: 0;
 	padding: 0;
-	font-family: 'Times New Roman', Times, serif, sans-serif;
-	font-size: 16px;
-	line-height: 20px;
+	font-family: "Domaine Text", Times, serif, sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.563;
 	letter-spacing:0.1px;
 	font-feature-settings: "calt";
 	font-kerning: normal;
@@ -89,7 +108,14 @@
 	color: #000000;
 	text-decoration: none;
 	}
-	
+
+	a:hover {
+			text-decoration-line: underline;
+			text-decoration-color: #ffa7f9;
+			text-decoration-thickness: 1px;
+			text-underline-offset: 0.25em;
+		}
+
 	@media not all and (pointer: coarse) {
 	a:active, a:focus, a:hover {
 	background-color:transparent;
@@ -110,8 +136,8 @@
 	h1,h2,h3,h4,h5,h6,p,ul {
 	display: block;
 	font-weight: 400;
-	font-size: 16px;
-	line-height: 20px;
+	font-size: 1.25rem;
+    line-height: 1.563;
 	-webkit-column-break-inside: avoid;
 	page-break-inside: avoid;
 	break-inside: avoid;
@@ -119,19 +145,32 @@
 	}
 	
 	h1,h2,h3,h4 {
-	font-family: 'Times New Roman', Times, serif, sans-serif;
+	font-family: "Domaine Text", Times, serif, sans-serif;
 	}
 	
 	h1,h2,h5,h6,p,ul {
 	padding: 0 0 20px;
 	}
+
+	u {
+			text-decoration-color: #ffa7f9;
+			text-decoration-thickness: 1px;
+			text-underline-offset: 0.25em;
+	}
+
+	u:hover {
+		text-decoration-line: underline;
+		text-decoration-color: #ff5af4;
+		text-decoration-thickness: 1px;
+		text-underline-offset: 0.25em;
+	}
 	
 	h1 {
-		column-span:all;
+		column-span: all;
 	}
 	
 	h5,h6 {
-	font-family: 'Times New Roman', Times, serif, sans-serif;
+	font-family: "Pitch Sans", Times, serif, sans-serif;
 	break-before: avoid;
 	}
 	
@@ -235,7 +274,7 @@
 	input {
 	display: inline-block;
 	width: 100%;
-	font-family: 'Times New Roman', Times, serif, sans-serif;
+	font-family: "Domaine Text", Times, serif, sans-serif;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 16px;
@@ -317,10 +356,9 @@
 	}
 	
 	.m-entry-txt-wrap {
-			-webkit-column-break-inside: avoid;
+		-webkit-column-break-inside: avoid;
 			  page-break-inside: avoid;
 				   break-inside: avoid;
-				   
 		text-align: left;
 		margin: 0;
 		padding: 0;
@@ -351,9 +389,9 @@
 	}
 	
 	#m-footer {
-	font-size: 14px;
-	line-height: 18px;
-	text-align: center;
+	font-family: "Pitch Sans";
+	font-size: 0.85rem;
+	text-align: left;
 	margin: 0;
 	height: 40px;
 	padding: 10px 28px 0;
