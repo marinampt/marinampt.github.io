@@ -61,7 +61,7 @@ body {
   color: black;
   text-align: center;
   font-size: 0.5em;
-  background-color: #ffffff;
+  background-color: #ccd9f0;
   background-image: linear-gradient(to right, black 15%, rgba(255,255,255,0) 0%);
   background-position: bottom;
   background-size: 50px .75px;
@@ -302,5 +302,11 @@ ul {
 @media only screen and (max-width: 600px) {
   html {
     font-size: 16px;
+  }
+
+  .gifbox {
+    position: relative;
+    width: 100%;
+    z-index: -9999;
   }
 }
