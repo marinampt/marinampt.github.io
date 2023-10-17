@@ -143,7 +143,7 @@ audio {
 
 *.gifbox > img {
   width: 100%;
-  background-color: #000; /* fallback color if gif doesn't load */
+  background-color: #ccd9f0; 
 }
 
 /* =========================
@@ -194,7 +194,7 @@ h2 {
 }
 
 .chapter {
-  margin-bottom: 120px; /* space between chapters */
+  margin-bottom: 120px;
 }
 
 .introchapter {
@@ -284,7 +284,6 @@ ul {
       RESPONSIVE SECTION
 =========================== */
 
-/* TODO: Responsiveness (It should stay last) */
 @media only screen and (max-width: 900px) {
   html {
     font-size: 16px;
@@ -302,11 +301,5 @@ ul {
 @media only screen and (max-width: 600px) {
   html {
     font-size: 16px;
-  }
-
-  .gifbox {
-    position: relative;
-    width: 100%;
-    z-index: -9999;
   }
 }
