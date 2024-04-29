@@ -44,6 +44,7 @@ body,html {
 	
 	body {
 	margin: 0;
+	text-transform: lowercase;
 	padding: 0;
 	font-family: "Domaine Text", Times, serif, sans-serif;
     font-size: 1.25rem;
@@ -180,7 +181,7 @@ body,html {
 	}
 	
 	h5:before, h6:before {
-		text-transform:uppercase;
+		text-transform:lowercase;
 		content: "â€¢\00A0";
 	}
 
@@ -203,7 +204,7 @@ body,html {
 	}
 	
 	li:first-letter {
-		text-transform: capitalize
+		text-transform: lowercase
 	}
 	
 	.column-break {
@@ -398,7 +399,7 @@ body,html {
 	}
 	
 	.m-cap:first-letter {
-	text-transform: capitalize
+	text-transform: lowercase
 	}
 	
 	.crp-list-item-title + .crp-list {
