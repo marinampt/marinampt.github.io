@@ -5,33 +5,15 @@ body,html {
 	html {
 	box-sizing: border-box;
 	}
-
-	@font-face {
-  		font-family: "Domaine Text";
-  		font-weight: normal;
-  		font-style: normal;
-  		font-stretch: normal;
-  		src: url(/font/domaine-text-regular.woff2) format('woff2'),
-     	url(/font/domaine-text-regular.woff2) format('woff')
-		}
-
-	@font-face {
-  		font-family: "Pitch Sans";
-  		font-weight: normal;
-  		font-style: normal;
-  		font-stretch: normal;
-		font-size: 0.85rem;
-  		src: url(/font/pitch-sans-regular.woff2) format('woff')
-		}
 	
 	figcaption {
 		text-align: center;
 		margin: -10px 0 20px 0;
 		text-indent: 4%;
 		padding: 0;
-		font-family: "Pitch Sans", Times, serif, sans-serif;
-		font-size: 12px;
-		line-height: 20px;
+		font-family: 'Times New Roman', Times, serif;
+		font-size: 14px;
+		line-height: 1.15;
 		}
 
 	figure {
@@ -46,9 +28,9 @@ body,html {
 	margin: 0;
 	text-transform: lowercase;
 	padding: 0;
-	font-family: "Domaine Text", Times, serif, sans-serif;
-    font-size: 1.25rem;
-    line-height: 1.563;
+	font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height: 1.15;
 	letter-spacing:0.1px;
 	font-feature-settings: "calt";
 	font-kerning: normal;
@@ -137,8 +119,8 @@ body,html {
 	h1,h2,h3,h4,h5,h6,p,ul {
 	display: block;
 	font-weight: 400;
-	font-size: 1.25rem;
-    line-height: 1.563;
+	font-size: 20px;
+    line-height: 1.15;
 	-webkit-column-break-inside: avoid;
 	page-break-inside: avoid;
 	break-inside: avoid;
@@ -146,7 +128,7 @@ body,html {
 	}
 	
 	h1,h2,h3,h4 {
-	font-family: "Domaine Text", Times, serif, sans-serif;
+	font-family: 'Times New Roman', Times, serif;
 	}
 	
 	h1,h2,h5,h6,p,ul {
@@ -171,7 +153,7 @@ body,html {
 	}
 	
 	h5,h6 {
-	font-family: "Pitch Sans", Times, serif, sans-serif;
+		font-family: 'Times New Roman', Times, serif;
 	break-before: avoid;
 	}
 	
@@ -275,11 +257,11 @@ body,html {
 	input {
 	display: inline-block;
 	width: 100%;
-	font-family: "Domaine Text", Times, serif, sans-serif;
+	font-family: 'Times New Roman', Times, serif;
 	font-style: normal;
 	font-weight: 400;
-	font-size: 16px;
-	line-height: 20px;
+	font-size: 20px;
+	line-height: 1.15;
 	border-width: 0;
 	background: 0 0;
 	outline: 0;
@@ -390,7 +372,7 @@ body,html {
 	}
 	
 	#m-footer {
-	font-family: "Pitch Sans";
+	font-family: 'Times New Roman', Times, serif;
 	font-size: 0.85rem;
 	text-align: left;
 	margin: 0;
@@ -439,4 +421,3 @@ body,html {
 		margin: -20px 0 0 20px;
 		text-indent: -20px;
 	}
-	
