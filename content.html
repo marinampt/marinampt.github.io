@@ -95,16 +95,73 @@
 
 <div id="m-content">
 	<div class="m-entry-txt-wrap">
-		<h1>Content</h1>
-	</div>
-				<!-- images -->
-	<div class="m-entry-img-wrap">	
+	<h1>content</h1>
+<section class="reference-list">
+<h2>walking alone at night</h2>
+<h3>2025</h3>
+<ul>
+<li>ongoing solo night walks. handwritten logs written in a sketchbook. 21.25 x 15.5 cm.</a></li>
+</ul>
+<h3>2024</h3>
+<ul>
+<li>two hundred and ninety-eight solo night walks. handwritten logs written in a sketchbook. 21.25 x 15.5 cm.</li> 
+</ul>
+<h3>2023</h3>
+<ul>
+<li>forty solo night walks. handwritten logs placed inside a pocket of laura’s brown suit. 17.5 x 10.5 cm.</li> 
+</ul>
+<h3>2008–2022</h3>
+<ul>
+<li>unarchived solo night walks</li> 
+</ul><br/>
+</section>
 
-				<!-- .post -->
-				
-					
-</div><!-- #m-content -->
+<section class="reference-list">
+<h2>walking with people at night</h2>
+<h3>2025</h3>
+<ul>
+<li>one night walk. <span style="font-style: italic;">baby i have your back.</span> with walking partner max oolsterholt. Amsterdam, The Netherlands. the content is part of the yellow suits.</li>
+</ul>
+<h3>2024</h3>
+<ul>
+<li>seven night walks. <span style="font-style: italic;">baby i have your back.</span> with walking partner max oolsterholt. the content is part of the yellow suits.</li>
+</ul>
+</section><br/>
+
+<section class="reference-list">
+	<h2>interviewing people at night</h2>
+	<h3>2022</h3>
+	<ul>
+	<li>fifteen night walks. <span style="font-style: italic;">pretty in pink on a dark street.</span> eindhoven, the netherlands. voice recordings.</li>
+	<u><p id="audioText" style="cursor: pointer;" class="play-text">play the excerpt</p></u>
+
+    <audio id="backgroundAudio" loop>
+        <source src="assets/final.mp4" type="audio/mpeg">
+    </audio>
+	</ul>
+	</section><br/>
+
+	<script>
+        const audio = document.getElementById("backgroundAudio");
+        const text = document.getElementById("audioText");
+
+        let isPlaying = false;
+
+        text.addEventListener("click", function () {
+            if (!isPlaying) {
+                audio.play();
+                text.textContent = "pause the excerpt"; // Change text when playing
+            } else {
+                audio.pause();
+                text.textContent = "play the excerpt"; // Change text when paused
+            }
+            isPlaying = !isPlaying;
+        });
+    </script>
+
 </div>
+</div>
+
 </div> <!-- .m-whole-wrap -->
 <div id="m-footer">
 	© 2025 Marina Menéndez-Pidal 
