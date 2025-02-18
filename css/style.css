@@ -249,6 +249,11 @@ body,html {
 	padding: 0;
 	break-inside:avoid;
 	}
+
+	.m-menu-col:last-child {
+		padding-left: 14px;
+		padding-right: 14px;
+	}
 	
 	#m-content,#m-menu a,.crp-list-item-title a {
 	display: default;
