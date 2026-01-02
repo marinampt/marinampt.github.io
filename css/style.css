@@ -94,7 +94,7 @@ body,html {
 
 	a:hover {
 			text-decoration-line: underline;
-			text-decoration-color: #ffa7f9;
+			text-decoration-color: #f5b650;
 			text-decoration-thickness: 1px;
 			text-underline-offset: 0.25em;
 		}
@@ -136,14 +136,14 @@ body,html {
 	}
 
 	u {
-			text-decoration-color: #ffa7f9;
+			text-decoration-color: #f5b650;
 			text-decoration-thickness: 1px;
 			text-underline-offset: 0.25em;
 	}
 
 	u:hover {
 		text-decoration-line: underline;
-		text-decoration-color: #ff5af4;
+		text-decoration-color: #96b3e2;
 		text-decoration-thickness: 1px;
 		text-underline-offset: 0.25em;
 	}
