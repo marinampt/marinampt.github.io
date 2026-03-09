@@ -140,6 +140,14 @@ body,html {
 	padding: 0 0 20px;
 	}
 
+	.line {
+	width: 100%;
+  	height: 2px;
+ 	background-color: white;
+	}
+
+
+
 	u {
 			text-decoration-color: #f5b650;
 			text-decoration-thickness: 1px;
